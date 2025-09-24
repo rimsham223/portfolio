@@ -1,0 +1,114 @@
+/* Global styles for all pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #A690A6;
+    color: #0E0B0E;
+    text-align: center;
+}
+
+/* Headings */
+h1, h2 {
+    color: #0E0B0E;
+    border-bottom: 3px dashed #5B495B;    /* border under heading */
+    padding-bottom: 15px;                /* Sapce below heading */
+    margin-bottom: 20px;                 /* Space after heading */
+}
+
+/* Navigation: Horizontal using float */
+
+nav {
+    margin-bottom: 20px;            /* Space below nav */
+}
+
+nav a {
+    float: center;                        /*Horizontal links*/
+    margin: 0 15px;
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+    background-color: #D3C0D3; 
+    padding: 8px 15px;
+    border: 1px solid #5B495B;
+    border-radius: 9px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #5B495B;
+    color: white;
+}
+
+nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Lists(Hobbies, sills) */
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    font-size: 17px;
+    line-height: 2; 
+}
+
+ul li {
+    border: 1px solid #D3C0D3;
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 600px;
+    background-color: #5B495B;
+}
+
+/* Gallery: Float images side-by-side*/
+.gallery img {
+    width: 250px;
+    height: 320px;
+    margin: 12px;
+    border: 2px solid #5B495B;
+    float: center;
+}
+
+.gallery::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: block;                 
+    margin-top: 12px;              
+    font-weight: bold;              
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;                    
+    padding: 10px;                  
+    margin-bottom: 10px;            
+    border: 1px solid #5B495B;      
+    background-color: #D3C0D3;      
+}
+
+input[type="submit"] {
+    background-color: darkblue;     
+    color: white;                   
+    padding: 10px 20px;            
+    border: none;                   
+    cursor: pointer;                
+}
+
+/* Paragraphs (home page) */
+p {
+    font-size: 17px;                
+    margin: 20px 0;                 
+}
