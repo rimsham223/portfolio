@@ -1,3 +1,3 @@
 # My Personal Portfolio
 This is my portfolio website for Web Engineering Lab 3.
-Live site: [GitHub Pages link here after deployment]
+Live site: [[(https://github.com/rimsham223/portfolio.git)]
